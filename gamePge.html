@@ -170,6 +170,7 @@
                 outTime.innerHTML = time.getElapsedTime() * 1000;
                 if (outTime >= highscore) {
                     highscore.innerHTML = outTime.innerHTML;
+                    highscore = outTime;
                 }
 
             }
